@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "hylia-serif";
+    src: url(../fonts/hylia-serif/HyliaSerifBeta-Regular.otf), url(../fonts/__MACOSX/hylia-serif/._HyliaSerifBeta-Regular.otf);
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/loz-background2.jpg");
+
+    text-align: center;
+}
+
+body {
+    background-color: lightcyan;
+    display: inline-block;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    min-height: 500px;
+    max-width: 600px;
+    margin: 30px;
+}
+
+header {
+    font-family: "hylia-serif";
+    font-size: 70px;
+    color: gold;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#start, #start-over {
+    margin-top: 200px;
+    font-size: 30px;
+    background-color: lightseagreen;
+    border: 1px solid green;
+    padding: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#timer {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#question {
+    font-size: 20px;
+}
+
+.answer {
+    font-size: 25px;
+    margin: 7px;
+}
+
+#answer1 {
+    margin-top: 30px;
+}
+
+.message {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.submessage {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 95%;
+    margin-bottom: 10px;
+}
+
+.answer:hover, #start:hover, #start-over:hover {
+    background-color: lightpink;
+    border: 1px solid purple;
+}
+
+.result-message {
+    font-size: 25px;
+    margin-top: 70px;
+}
+
+.results {
+    font-size: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+#start-over {
+    margin-top: 40px;
+}
